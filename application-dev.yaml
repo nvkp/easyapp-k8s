@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://gitlab.trask.cz/IT/time-management/easyapp-k8s.git
+    repoURL: https://github.com/nvkp/easyapp-k8s.git
     targetRevision: HEAD
     path: dev
   destination:
