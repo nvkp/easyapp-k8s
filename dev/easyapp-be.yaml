@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: easyapp-be
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
           env:
